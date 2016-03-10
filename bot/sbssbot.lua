@@ -239,7 +239,7 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {149516204,142627841},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V2 Beta
@@ -338,9 +338,8 @@ __________________________
 تگ : صدا کردن افراد گروه
 —---------------------—
 نیاز نیست از '!' و '/' استفاده کنید*
-_______________________________
-Writed by SBSS Team
-]]
+_____________________________
+]]سازنده هانی خفاش 
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
